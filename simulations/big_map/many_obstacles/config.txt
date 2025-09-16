@@ -1,0 +1,20 @@
+N = 500
+MAP_WIDTH = 50
+MAP_HEIGHT = 50
+OBSTACLE_PROBABILITY = 0.008
+RESOLUTION = 1.
+INFLATION_RADIUS = 3
+SEED = 1
+INFLATE = True
+OBSTACLE_POSITION = None
+
+STARTING_NODE = [40, 6, np.pi/2, 0, 1, 0]
+GOAL_NODE = [10, 36, np.pi, 0, 1, 0]
+
+forcing:
+rrt.generated_nodes.append(Node(np.array([ 33, 15, np.pi/2, 0, 2, 0])))
+rrt.generated_nodes.append(Node(np.array([ 20, 20, np.pi/2, 0, 2, 0])))
+
+planning time:  426.80719208717346
+total cost:  61.82008039809374
+number_nodes:  84
