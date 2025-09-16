@@ -6,15 +6,15 @@
 An advanced robotics project implementing kinematic modeling, optimal path planning, and simulation for a mobile robot with four independent off-centered steering wheels. The main challenge tackled is the complex coordination of all four wheels simultaneously for smooth and efficient navigation.
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Technical Challenges](#technical-challenges)
-- [Project Architecture](#project-architecture)
-- [Mathematical Foundation](#mathematical-foundation)
-- [Implementation Details](#implementation-details)
-- [Simulation Environment](#simulation-environment)
+- [Overview](#-overview)
+- [Technical Challenges](#-technical-challenges)
+- [Project Architecture](#-project-architecture)
+- [Mathematical Foundation](#-mathematical-foundation)
+- [Implementation Details](#-implementation-details)
+- [Simulation Environment](#-simulation-environment)
 - [Results](#-results)
-- [Installation & Usage](#installation--usage)
-- [Documentation](#documentation)
+- [Installation & Usage](#-installation--usage)
+- [Documentation](#-documentation)
 
 ## 🎯 Overview
 
@@ -172,12 +172,12 @@ $$\mathbf{c} = \mathbf{f}(\mathbf{q_0}, \mathbf{u_0}) - \mathbf{A} \mathbf{q_0} 
 ## 🏁 Results
 Here I will show some simulations we have done. However the full list of simulations can be seen [HERE](https://github.com/Puaison/Kinodynamic-motion-planning-for-steerable-WMRs/tree/main/simulations/gifs) 
 <p align="center">
-  <img src="simulations/gifs/small-few.gif" width="500" />
-  <img src="simulations/gifs/small-many.gif" width="500" />
+  <img src="simulations/gifs/small-few.gif" width="400" />
+  <img src="simulations/gifs/small-many.gif" width="400" />
 </p>
 <p align="center">
-  <img src="simulations/gifs/medium-many.gif" width="500" />
-  <img src="simulations/gifs/big-many.gif" width="500" />
+  <img src="simulations/gifs/medium-many.gif" width="400" />
+  <img src="simulations/gifs/big-many.gif" width="400" />
 </p>
 
 ## ⚙️ Installation & Usage
