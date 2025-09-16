@@ -1,4 +1,4 @@
-# 🤖 Autonomous Mobile Robotics - 4-Wheel independently actuated Steering Robot
+# 🤖 Autonomous Mobile Robotics - independently actuated 4-Wheel Steering Robot
 <p align="center">
   <img src="https://www.neobotix-docs.de/hardware/en/_images/mpo-700.png" alt="Neobotix MPO-500" width="500"/>
 </p>
@@ -8,12 +8,12 @@ An advanced robotics project implementing kinematic modeling, optimal path plann
 
 - [Overview](#-overview)
 - [Technical Challenges](#-technical-challenges)
-- [Project Architecture](#-project-architecture)
+- [Project Architecture](#️-project-architecture)
 - [Mathematical Foundation](#-mathematical-foundation)
-- [Implementation Details](#-implementation-details)
+- [Implementation Details](#️-implementation-details)
 - [Simulation Environment](#-simulation-environment)
 - [Results](#-results)
-- [Installation & Usage](#-installation--usage)
+- [Installation & Usage](#️-installation--usage)
 - [Documentation](#-documentation)
 
 ## 🎯 Overview
