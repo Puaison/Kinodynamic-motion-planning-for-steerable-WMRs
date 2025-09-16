@@ -201,7 +201,7 @@ Modify `Utils/constants.py` to adjust:
 
 ## 📚 Documentation
 
-A comprehensive **technical report** (`Project_report.pdf`) is included, providing:
+A comprehensive [**technical report**](https://github.com/Puaison/Kinodynamic-motion-planning-for-steerable-WMRs/blob/main/Project_report.pdf) (`Project_report.pdf`) and a [presentation](https://github.com/Puaison/Kinodynamic-motion-planning-for-steerable-WMRs/blob/main/Slides.pdf) are included, providing:
 
 - **Detailed Mathematical Derivations**: Complete kinematic and dynamic formulations
 - **Algorithm Analysis**: In-depth explanation of RRT* implementation and modifications
