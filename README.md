@@ -1,13 +1,14 @@
-# 🤖 Autonomous Mobile Robotics - 4-Wheel Steering Robot
+# 🤖 Autonomous Mobile Robotics - 4-Wheel independently actuated Steering Robot
+<p align="center">
+  <img src="https://www.neobotix-docs.de/hardware/en/_images/mpo-700.png" alt="Neobotix MPO-500" width="500"/>
+</p>
 
-An advanced robotics project implementing kinematic modeling, optimal path planning, and simulation for a mobile robot with four independent steering wheels. The main challenge tackled is the complex coordination of all four wheels simultaneously for smooth and efficient navigation.
-
+An advanced robotics project implementing kinematic modeling, optimal path planning, and simulation for a mobile robot with four independent off-centered steering wheels. The main challenge tackled is the complex coordination of all four wheels simultaneously for smooth and efficient navigation.
 ## 📋 Table of Contents
 
 - [Overview](#overview)
 - [Technical Challenges](#technical-challenges)
 - [Project Architecture](#project-architecture)
-- [Key Features](#key-features)
 - [Mathematical Foundation](#mathematical-foundation)
 - [Implementation Details](#implementation-details)
 - [Simulation Environment](#simulation-environment)
@@ -17,7 +18,7 @@ An advanced robotics project implementing kinematic modeling, optimal path plann
 
 ## 🎯 Overview
 
-This project addresses the complex problem of **autonomous navigation for a 4-wheel steering mobile robot**. Unlike conventional differential drive robots, our system features four independently steerable wheels, requiring sophisticated coordination algorithms to achieve smooth and optimal motion.
+This project addresses the complex problem of **autonomous navigation for a 4-wheel indipendently actuated steering mobile robot**. Unlike conventional differential drive robots, our system features four independently steerable wheels, requiring sophisticated coordination algorithms to achieve smooth and optimal motion.
 
 ### 🚀 Project Goals
 
@@ -167,6 +168,17 @@ $$\mathbf{c} = \mathbf{f}(\mathbf{q_0}, \mathbf{u_0}) - \mathbf{A} \mathbf{q_0} 
 - **Path Optimality**: Cost analysis of generated trajectories
 - **Execution Time**: Computational performance benchmarking
 - **Constraint Violation**: Monitoring of kinematic constraint satisfaction
+
+## Results
+Here I will show some simulations we have done. However the full list of simulations can be seen [HERE](https://github.com/Puaison/Kinodynamic-motion-planning-for-steerable-WMRs/tree/main/simulations/gifs) 
+<p align="center">
+  <img src="simulations/gifs/small-few.gif" width="500" />
+  <img src="simulations/gifs/small-many.gif" width="500" />
+</p>
+<p align="center">
+  <img src="simulations/gifs/medium-many.gif" width="500" />
+  <img src="simulations/gifs/big-many.gif" width="500" />
+</p>
 
 ## ⚙️ Installation & Usage
 
