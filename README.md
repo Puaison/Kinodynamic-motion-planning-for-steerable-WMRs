@@ -12,7 +12,7 @@ An advanced robotics project implementing kinematic modeling, optimal path plann
 - [Mathematical Foundation](#mathematical-foundation)
 - [Implementation Details](#implementation-details)
 - [Simulation Environment](#simulation-environment)
-- [Results](#results)
+- [Results](#-results)
 - [Installation & Usage](#installation--usage)
 - [Documentation](#documentation)
 
@@ -169,7 +169,7 @@ $$\mathbf{c} = \mathbf{f}(\mathbf{q_0}, \mathbf{u_0}) - \mathbf{A} \mathbf{q_0} 
 - **Execution Time**: Computational performance benchmarking
 - **Constraint Violation**: Monitoring of kinematic constraint satisfaction
 
-## Results
+## 🏁 Results
 Here I will show some simulations we have done. However the full list of simulations can be seen [HERE](https://github.com/Puaison/Kinodynamic-motion-planning-for-steerable-WMRs/tree/main/simulations/gifs) 
 <p align="center">
   <img src="simulations/gifs/small-few.gif" width="500" />
